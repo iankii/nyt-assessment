@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import service from "../services/service";
-import PostCard from "../components/PostCard";
+import PostCard from "../components/postCard/PostCard";
 
 import "./Home.css";
 
@@ -12,9 +12,7 @@ function Home() {
 		service
 			.getArticles()
 			.then((articles) => {
-				console.log("articles: ", articles.results);
 				if (articles.status === "OK") {
-					console.log("articles: OKS", articles);
 					setPosts(articles.results);
 				}
 			})

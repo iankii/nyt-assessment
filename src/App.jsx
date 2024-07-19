@@ -1,6 +1,5 @@
-import { useState, useEffect } from "react";
+import React from "react";
 import "./App.css";
-import service from "./services/service";
 import { Link, Outlet } from "react-router-dom";
 
 function App() {

@@ -8,7 +8,6 @@ function Post() {
 	const { id } = useParams();
 	const [loading, setLoading] = useState(true);
 	const [post, setPost] = useState({});
-	console.log("post: ", post);
 
 	useEffect(() => {
 		service
