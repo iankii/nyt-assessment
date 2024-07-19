@@ -4,12 +4,12 @@ import { Link, Outlet } from "react-router-dom";
 
 function App() {
 	return (
-		<div className="app w-full">
+		<div className="app w-full" data-testid="app">
 			{/* <Header /> */}
-			<h1 className="header">
+			<header className="header" data-testid="header">
 				Some Header {"   "}
 				<Link to="/">Home</Link>
-			</h1>
+			</header>
 			<main>
 				<Outlet />
 			</main>

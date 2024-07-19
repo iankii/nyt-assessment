@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import service from "../services/service";
-import PostCard from "../components/postCard/PostCard";
+import service from "../../services/service";
+import PostCard from "../../components/postCard/PostCard";
 
 import "./Home.css";
 
@@ -23,7 +23,7 @@ function Home() {
 
 	return (
 		//TODO:  create a post card
-		<div className="container">
+		<div className="container" data-testid="home">
 			<div className="posts">
 				{posts?.map((post) => {
 					return (
