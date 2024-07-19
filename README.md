@@ -1,6 +1,5 @@
 ## NewYorkTimes
 
-#### Example:
 
 This application is created to fetch articles from NewYorkTimes apis and display the list on UI.
 
