@@ -25,12 +25,12 @@ To Visit App:
 
 ## Reflection
 
-The technologies implemented in this project are React, React-Router, JS, JSX, and CSS. I chose to use the `vite-react` boilerplate to minimize initial setup.
+The technologies implemented in this project are React, React-Router, JS, JSX, and CSS. I chose to use the `vite-react` boilerplate to minimize initial setup. I have used Tailwind css to minimise efforts in writing css. 
 
 ## Screenshots
+![image](https://github.com/user-attachments/assets/5add32c3-cc2f-4a50-aa6f-e0097d7d2dff)
+![image](https://github.com/user-attachments/assets/71898ff0-00e4-498b-90e0-97be93089697)
 
-<img width="1440" alt="image" src="https://github.com/user-attachments/assets/10b67077-2906-4d1d-aedd-662479191922">
-<img width="1440" alt="image" src="https://github.com/user-attachments/assets/99e8b87f-500e-4bf6-982e-99ebf82021b2">
 
 
 # React + Vite
