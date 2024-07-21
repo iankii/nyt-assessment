@@ -8,6 +8,7 @@ This application is created to fetch articles from NewYorkTimes apis and display
 Clone down this repository. You will need `node` and `npm` installed globally on your machine.
 
 Installation:
+`npm install vite@latest`
 
 `npm install`
 
