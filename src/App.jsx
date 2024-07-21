@@ -1,22 +1,19 @@
 import React from "react";
-import "./App.css";
-import { Link, Outlet } from "react-router-dom";
+import { Outlet } from "react-router-dom";
+import { Header, Footer } from "./components/index";
 
 function App() {
-	return (
-		<div className="app w-full" data-testid="app">
-			{/* <Header /> */}
-			<header className="header" data-testid="header">
-				Some Header {"   "}
-				<Link to="/">Home</Link>
-			</header>
-			<main>
-				<Outlet />
-			</main>
-			<footer>Some footer</footer>
-			{/* <Footer /> */}
-		</div>
-	);
+  return (
+    <div className="min-h-screen flex-wrap content-between bg-light">
+      <div className="w-full block">
+        <Header />
+        <main>
+          <Outlet />
+        </main>
+        <Footer />
+      </div>
+    </div>
+  );
 }
 
 export default App;
