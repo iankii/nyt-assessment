@@ -72,6 +72,10 @@ To get Test Coverage
 
 `npm run test -- --coverage`
 
+To generate build
+
+`npm run build`
+
 To Visit App:
 
 `http://localhost:5173/`
