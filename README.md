@@ -78,17 +78,23 @@ The technologies implemented in this project are `React`, `React-Router`, `Types
 For unit test cases, I have used `Jest` with `@testing-library/react`.
 
 ## Screenshots
+
     ### Home page
-    <img width="1427" alt="image" src="https://github.com/user-attachments/assets/1e39d2a9-09b5-4394-acb0-6f094184945d">
+<img width="1427" alt="image" src="https://github.com/user-attachments/assets/1e39d2a9-09b5-4394-acb0-6f094184945d">
 
     ### All Posts
-    <img width="1427" alt="image" src="https://github.com/user-attachments/assets/d1f07c14-7815-40bf-8987-2d220163ac47">
+<img width="1427" alt="image" src="https://github.com/user-attachments/assets/d1f07c14-7815-40bf-8987-2d220163ac47">
 
     ### Post
-    <img width="1427" alt="image" src="https://github.com/user-attachments/assets/eb03e001-19ba-4618-b855-46c12c275988">
+<img width="1427" alt="image" src="https://github.com/user-attachments/assets/eb03e001-19ba-4618-b855-46c12c275988">
+
+    ### Test Coverages
+<img width="1195" alt="image" src="https://github.com/user-attachments/assets/0a44bac0-9d51-466c-8690-0ae0b9155f1e">
+
+<img width="1202" alt="image" src="https://github.com/user-attachments/assets/d4f091c2-d101-4a26-8cb4-b8be51a17c5f">
 
 
 
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules. Vite is used to generate this project with basic boilerplate.  
