@@ -8,7 +8,6 @@ export class Service {
 				"https://api.nytimes.com/svc/mostpopular/v2/viewed/1.json?api-key=HHxqNhT8VG6zafwVTVv44ePmohkducQD"
 			).then((res) => res.json());
 		} catch (error) {
-			console.error("error: ", error);
 			throw error;
 		}
 	}
@@ -20,7 +19,6 @@ export class Service {
 				`https://api.nytimes.com/svc/search/v2/articlesearch.json?api-key=HHxqNhT8VG6zafwVTVv44ePmohkducQD&&id=${id}`
 			).then((res) => res.json());
 		} catch (error) {
-			console.error("error: ", error);
 			throw error;
 		}
 	}

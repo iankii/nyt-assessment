@@ -7,7 +7,6 @@ function Post() {
   const { id } = useParams();
   const [loading, setLoading] = useState<boolean>(true);
   const [post, setPost] = useState({});
-  console.log("post: ", post);
 
   useEffect(() => {
     service
@@ -27,6 +26,7 @@ function Post() {
   }, [id]);
 
   if (loading) return <div>Loading...</div>;
+
   return (
     post && (
       <div className="py-8">
