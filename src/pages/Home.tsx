@@ -2,15 +2,16 @@ import React, { useState, useEffect } from "react";
 import service from "../services/service";
 import PostCard from "../components/postCard/PostCard";
 import { Container } from "../components/index";
+import { PostList, PostListResponse } from "../types/Post";
 
 function Home() {
-  const [loading, setLoading] = useState(true);
-  const [posts, setPosts] = useState([]);
+  const [loading, setLoading] = useState<boolean>(true);
+  const [posts, setPosts] = useState<PostList>([]);
 
   useEffect(() => {
     service
       .getArticles()
-      .then((articles) => {
+      .then((articles: PostListResponse) => {
         if (articles.status === "OK") {
           setPosts(articles.results);
         }
@@ -29,8 +30,8 @@ function Home() {
       <div className="w-full py-8">
         <Container>
           <div className="flex flex-wrap">
-            {posts.map((post) => (
-              <div key={post.id} className="w-1/4 p-2">
+            {posts.map((post: any) => (
+              <div key={post?.id} className="w-1/4 p-2">
                 <PostCard {...post} />
               </div>
             ))}
