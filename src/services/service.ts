@@ -1,5 +1,5 @@
 export class Service {
-	constructor() {}
+	constructor() { }
 
 	async getArticles() {
 		try {
@@ -13,7 +13,7 @@ export class Service {
 		}
 	}
 
-	async getArticleById(id) {
+	async getArticleById(id: string) {
 		try {
 			return await fetch(
 				// TODO: move this key and URL to env file

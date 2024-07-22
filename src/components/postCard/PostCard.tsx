@@ -1,12 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+import { Post } from "./../../types/Post";
+
 // removed as I used tailwind css
 // import "./PostCard.css";
 
-function PostCard(post) {
+function PostCard(post: Post) {
+  console.log('post: ', post);
   return (
-    <Link to={`post/${post.id}`}>
+    <Link to={`/post/${post.id}`}>
       <div className="w-full bg-gray-100 rounded-xl p-4 hover:bg-gray-200 hover:scale-105">
         <div className="w-full justify-center mb-4">
           {post?.media?.[0]?.["media-metadata"]?.[0]?.url && (

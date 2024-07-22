@@ -5,13 +5,13 @@ import { Container } from "../components";
 
 function Post() {
   const { id } = useParams();
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState<boolean>(true);
   const [post, setPost] = useState({});
   console.log("post: ", post);
 
   useEffect(() => {
     service
-      .getArticleById(id)
+      .getArticleById(id as string)
       .then((res) => {
         if (res.status === "OK") {
           const post = res.response.docs[0]

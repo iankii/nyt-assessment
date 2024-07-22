@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from "react";
 import service from "../services/service";
 import { Container, PostCard } from "../components";
+import { PostList, PostListResponse } from "../types/Post";
 
 function AllPosts() {
-  const [posts, setPosts] = useState([]);
+  const [posts, setPosts] = useState<PostList>([]);
 
   useEffect(() => {
-    service.getArticles().then((articles) => {
+    service.getArticles().then((articles: PostListResponse) => {
       if (articles.status === "OK") {
         setPosts(articles.results);
       }
