@@ -4,7 +4,7 @@ This application is created to fetch articles from NewYorkTimes apis and display
 
 ## Dependencies and Dev-dependecies
 
-# Dependencies
+### Dependencies
 
 ```
     "@babel/preset-env": "^7.24.8",
@@ -17,7 +17,7 @@ This application is created to fetch articles from NewYorkTimes apis and display
     "react-test-renderer": "^18.3.1"
 ```
 
-# devDependecies
+### devDependecies
 
 ```
   "@testing-library/jest-dom": "^6.4.6",
@@ -78,9 +78,16 @@ The technologies implemented in this project are `React`, `React-Router`, `Types
 For unit test cases, I have used `Jest` with `@testing-library/react`.
 
 ## Screenshots
+    ### Home page
+    <img width="1427" alt="image" src="https://github.com/user-attachments/assets/1e39d2a9-09b5-4394-acb0-6f094184945d">
 
-![image](https://github.com/user-attachments/assets/5add32c3-cc2f-4a50-aa6f-e0097d7d2dff)
-![image](https://github.com/user-attachments/assets/71898ff0-00e4-498b-90e0-97be93089697)
+    ### All Posts
+    <img width="1427" alt="image" src="https://github.com/user-attachments/assets/d1f07c14-7815-40bf-8987-2d220163ac47">
+
+    ### Post
+    <img width="1427" alt="image" src="https://github.com/user-attachments/assets/eb03e001-19ba-4618-b855-46c12c275988">
+
+
 
 # React + Vite
 
