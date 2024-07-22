@@ -84,19 +84,19 @@ For unit test cases, I have used `Jest` with `@testing-library/react`.
 
 ## Screenshots
 
-    ### Home page
+### Home page
 
 <img width="1427" alt="image" src="https://github.com/user-attachments/assets/1e39d2a9-09b5-4394-acb0-6f094184945d">
 
-    ### All Posts
+### All Posts
 
 <img width="1427" alt="image" src="https://github.com/user-attachments/assets/d1f07c14-7815-40bf-8987-2d220163ac47">
 
-    ### Post
+### Post
 
 <img width="1427" alt="image" src="https://github.com/user-attachments/assets/eb03e001-19ba-4618-b855-46c12c275988">
 
-    ### Test Coverages
+### Test Coverages
 
 <img width="1195" alt="image" src="https://github.com/user-attachments/assets/0a44bac0-9d51-466c-8690-0ae0b9155f1e">
 
