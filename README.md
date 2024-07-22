@@ -1,12 +1,56 @@
 ## NewYorkTimes
 
-This application is created to fetch articles from NewYorkTimes apis and display the list on UI. User can also view one articles by clicking on specific article.
+This application is created to fetch articles from NewYorkTimes apis and display the list on UI. User can see the list of all articles on homepage and as well as "all-post" page. Also, if user wants to explore any specific article, he can click on that and the post will open in new "post" page.
+
+## Dependencies and Dev-dependecies
+
+# Dependencies
+
+```
+    "@babel/preset-env": "^7.24.8",
+    "@babel/preset-react": "^7.24.7",
+    "autoprefixer": "^10.4.19",
+    "babel-jest": "^29.7.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.25.1",
+    "react-test-renderer": "^18.3.1"
+```
+
+# devDependecies
+
+```
+  "@testing-library/jest-dom": "^6.4.6",
+  "@testing-library/react": "^16.0.0",
+  "@testing-library/user-event": "^14.5.2",
+  "@types/jest": "^29.5.12",
+  "@types/react": "^18.3.3",
+  "@types/react-dom": "^18.3.0",
+  "@vitejs/plugin-react": "^4.3.1",
+  "@typescript-eslint/eslint-plugin": "^7.15.0",
+  "@typescript-eslint/parser": "^7.15.0",
+  "typescript": "^5.2.2",
+  "eslint": "^8.57.0",
+  "eslint-plugin-react": "^7.34.3",
+  "eslint-plugin-react-hooks": "^4.6.2",
+  "eslint-plugin-react-refresh": "^0.4.7",
+  "identity-obj-proxy": "^3.0.0",
+  "jest": "^29.7.0",
+  "jest-environment-jsdom": "^29.7.0",
+  "jest-transformer-svg": "^2.0.2",
+  "postcss": "^8.4.39",
+  "tailwindcss": "^3.4.6",
+  "ts-jest": "^29.2.3",
+  "ts-node": "^10.9.2",
+  "vite": "^5.3.4",
+```
 
 ## Installation and Setup Instructions
 
 Clone down this repository. You will need `node` and `npm` installed globally on your machine.
 
 Installation:
+
 `npm install vite@latest`
 
 `npm install`
@@ -17,7 +61,11 @@ To Start Server:
 
 To Run Test Suite:
 
-`npm test`
+`npm run test`
+
+To get Test Coverage
+
+`npm run test -- --coverage`
 
 To Visit App:
 
@@ -25,9 +73,9 @@ To Visit App:
 
 ## Technologies used
 
-The technologies implemented in this project are React, React-Router, JS, JSX, and CSS. I chose to use the `vite-react` boilerplate to minimize initial setup. I have used Tailwind css to minimise efforts in writing css.
+The technologies implemented in this project are `React`, `React-Router`, `Typescript`, `TSX`, and `CSS`. I chose to use the `vite-react` boilerplate to minimize initial setup. I have used `Tailwind css` to minimise efforts in writing css.
 
-For unit test cases, I have used Jest with @testing-library/react.
+For unit test cases, I have used `Jest` with `@testing-library/react`.
 
 ## Screenshots
 

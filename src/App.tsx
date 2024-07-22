@@ -4,7 +4,7 @@ import { Header, Footer } from "./components/index";
 
 function App() {
   return (
-    <div className="min-h-screen flex-wrap content-between bg-light">
+    <div className="min-h-screen flex-wrap content-between bg-light" data-testid='app'>
       <div className="w-full block">
         <Header />
         <main>

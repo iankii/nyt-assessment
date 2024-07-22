@@ -5,7 +5,7 @@ import "@testing-library/jest-dom";
 import { render, screen } from "@testing-library/react";
 
 describe("Renders the main page", () => {
-	beforeAll(() => {
+	beforeEach(() => {
 		render(
 			<MemoryRouter>
 				<App />
@@ -15,9 +15,25 @@ describe("Renders the main page", () => {
 
 	it("should render App component", () => {
 		const app = screen.getByTestId("app");
-		const h1 = screen.getByTestId("header");
 
 		expect(app).toBeInTheDocument();
+	});
+
+	it("should render App container with header and footer component", () => {
+		const h1 = screen.getByTestId("header");
+		const footer = screen.getByTestId("footer");
+
 		expect(h1).toBeInTheDocument();
+		expect(footer).toBeInTheDocument();
+	});
+
+	it("should render nav items inside header component", () => {
+		const header = screen.getByTestId("header");
+		const navItems = screen.getAllByTestId("nav-item");
+		const homeNav = navItems[0];
+		const postNav = navItems[1];
+
+		expect(homeNav).toBeInTheDocument(header);
+		expect(postNav).toBeInTheDocument(header);
 	});
 });
