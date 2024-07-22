@@ -23,7 +23,7 @@ To Visit App:
 
 `http://localhost:5173/`
 
-## Reflection
+## Technologies used
 
 The technologies implemented in this project are React, React-Router, JS, JSX, and CSS. I chose to use the `vite-react` boilerplate to minimize initial setup. I have used Tailwind css to minimise efforts in writing css.
 
